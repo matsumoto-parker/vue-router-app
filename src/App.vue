@@ -4,8 +4,8 @@
       <router-link :to="{path: '/'}" exact>Home</router-link>|
       <router-link :to="{name: 'About'}">About</router-link>|
       <router-link to="/profile">profile</router-link>|
-      <router-link to="/User/1?age=20">User</router-link>|
-      <router-link :to="{name: 'User', params: { id: 'taro', query: {age: 30}}}">User</router-link>
+      <router-link to="/users/1">User</router-link>|
+      <router-link :to="{name: 'User', params: { id: 'taro' }}">User</router-link>
     </div>
     <router-view />
   </div>
